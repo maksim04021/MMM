@@ -112,4 +112,4 @@
 
 Добавлено оповещение об ошибках 
 
-   Вид ошибки(https://github.com/user-attachments/assets/e573ebc4-fe22-4c34-8d1d-defac2db2567)
+   *Вид ошибки(https://github.com/user-attachments/assets/e573ebc4-fe22-4c34-8d1d-defac2db2567)
