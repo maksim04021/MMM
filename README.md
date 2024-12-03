@@ -111,5 +111,5 @@
 Добавлено хэширование паролей пользователей
 
 Добавлено оповещение об ошибках* 
-      *
+      
 ![image](https://github.com/user-attachments/assets/e573ebc4-fe22-4c34-8d1d-defac2db2567)
