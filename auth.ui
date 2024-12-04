@@ -7,13 +7,50 @@
     <x>0</x>
     <y>0</y>
     <width>284</width>
-    <height>174</height>
+    <height>139</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>М Музыка</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame {
+	background: #353535; 
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+            background-color: #353535;
+            color: #ffffff;
+}
+
+QMenu {
+    background-color: #353535;
+    color: white;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+QMenu::item {
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+
+QMenu::item:selected {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 8px;
+}</string>
+   </property>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
@@ -26,6 +63,15 @@
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QLineEdit" name="Login">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+	background-color: rgb(74, 74, 74);
+	border-radius: 5px;
+	padding: 2px;
+	color: white;
+	border-bottom:1px solid rgb(216, 13, 252);
+}</string>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -36,6 +82,15 @@
      </item>
      <item>
       <widget class="QLineEdit" name="Password">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+	background-color: rgb(74, 74, 74);
+	border-radius: 5px;
+	padding: 2px;
+	color: white;
+	border-bottom:1px solid rgb(216, 13, 252);
+}</string>
+       </property>
        <property name="text">
         <string/>
        </property>
@@ -46,6 +101,13 @@
      </item>
      <item>
       <widget class="QPushButton" name="sup">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Sign in</string>
        </property>
@@ -53,6 +115,13 @@
      </item>
      <item>
       <widget class="QPushButton" name="sin">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Sign up</string>
        </property>
@@ -61,17 +130,6 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>284</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
